@@ -19,5 +19,3 @@
     @yield('custom-scripts')
 </body>
 </html>
-
-{{-- devo inserire anche products.blade.php? --}}
