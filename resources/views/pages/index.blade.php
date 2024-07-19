@@ -4,6 +4,5 @@
 
 @section('main-content')
     <div>
-        Welcome in the homepage
     </div>
 @endsection

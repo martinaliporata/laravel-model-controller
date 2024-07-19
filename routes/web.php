@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Abbiamo scritto guest.products (e guest.home) specificando guets perché potrei avere sia una home per i guest sia una home per gli admin quindi è bene specificare
-Route::get('/', [GuestPageController::class, 'index'])->name('guest.home');
+Route::get('/', [GuestPageController::class, 'index'])->name('pages.index');
