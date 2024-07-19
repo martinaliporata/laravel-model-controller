@@ -1,6 +1,12 @@
 @import "-bootstrap/scss/bootstrap";
 
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 .card-body{
     color: yellow;
     background-color: violet;
+    border: none;
 }
